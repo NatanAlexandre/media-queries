@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Mobile First */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -25,6 +27,7 @@ menu {
 
 menu {
     list-style-type: none;
+    display: none;
 }
 
 menu > ul > li > a {
@@ -41,4 +44,35 @@ menu > ul > li > a:hover {
     background-color: lightgray;
 }
 
-main 
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+span#burguer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
